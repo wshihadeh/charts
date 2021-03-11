@@ -1,0 +1,17 @@
+apiVersion: v1
+entries:
+  flux:
+  - apiVersion: v1
+    appVersion: v0.9.0
+    created: "2021-03-11T18:55:30.883786574Z"
+    description: Flux Helm chart for Kubernetes reources
+    digest: d0a4cf807ae993540bb675b7f9e5687a6ff8a56b7400548a3de839bf24029099
+    maintainers:
+    - email: no-replay@shihadeh.dev
+      name: Al-waleed Shihadeh
+      url: shihadeh.dev
+    name: flux
+    urls:
+    - https://github.com/wshihadeh/charts/releases/download/flux-0.9.0/flux-0.9.0.tgz
+    version: 0.9.0
+generated: "2021-03-11T18:55:30.883795874Z"
