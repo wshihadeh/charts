@@ -1,10 +1,6 @@
 apiVersion: apiextensions.k8s.io/v1
 kind: CustomResourceDefinition
 metadata:
-  annotations:
-    "helm.sh/hook": pre-install,pre-upgrade
-    "helm.sh/hook-weight": "-5"
-    "helm.sh/hook-delete-policy": "before-hook-creation"
     controller-gen.kubebuilder.io/version: v0.4.1
   creationTimestamp: null
   labels:
@@ -173,10 +169,6 @@ status:
 apiVersion: apiextensions.k8s.io/v1
 kind: CustomResourceDefinition
 metadata:
-  annotations:
-    "helm.sh/hook": pre-install,pre-upgrade
-    "helm.sh/hook-weight": "-5"
-    "helm.sh/hook-delete-policy": "before-hook-creation"
     controller-gen.kubebuilder.io/version: v0.4.1
   creationTimestamp: null
   labels:
@@ -362,10 +354,6 @@ status:
 apiVersion: apiextensions.k8s.io/v1
 kind: CustomResourceDefinition
 metadata:
-  annotations:
-    "helm.sh/hook": pre-install,pre-upgrade
-    "helm.sh/hook-weight": "-5"
-    "helm.sh/hook-delete-policy": "before-hook-creation"
     controller-gen.kubebuilder.io/version: v0.4.1
   creationTimestamp: null
   labels:
@@ -579,10 +567,6 @@ status:
 apiVersion: apiextensions.k8s.io/v1
 kind: CustomResourceDefinition
 metadata:
-  annotations:
-    "helm.sh/hook": pre-install,pre-upgrade
-    "helm.sh/hook-weight": "-5"
-    "helm.sh/hook-delete-policy": "before-hook-creation"
     controller-gen.kubebuilder.io/version: v0.4.1
   creationTimestamp: null
   labels:
@@ -772,10 +756,6 @@ status:
 apiVersion: apiextensions.k8s.io/v1
 kind: CustomResourceDefinition
 metadata:
-  annotations:
-    "helm.sh/hook": pre-install,pre-upgrade
-    "helm.sh/hook-weight": "-5"
-    "helm.sh/hook-delete-policy": "before-hook-creation"
     controller-gen.kubebuilder.io/version: v0.4.1
   creationTimestamp: null
   labels:
@@ -1289,10 +1269,6 @@ status:
 apiVersion: apiextensions.k8s.io/v1
 kind: CustomResourceDefinition
 metadata:
-  annotations:
-    "helm.sh/hook": pre-install,pre-upgrade
-    "helm.sh/hook-weight": "-5"
-    "helm.sh/hook-delete-policy": "before-hook-creation"
     controller-gen.kubebuilder.io/version: v0.4.1
   creationTimestamp: null
   labels:
@@ -1458,10 +1434,6 @@ status:
 apiVersion: apiextensions.k8s.io/v1
 kind: CustomResourceDefinition
 metadata:
-  annotations:
-    "helm.sh/hook": pre-install,pre-upgrade
-    "helm.sh/hook-weight": "-5"
-    "helm.sh/hook-delete-policy": "before-hook-creation"
     controller-gen.kubebuilder.io/version: v0.4.1
   creationTimestamp: null
   labels:
@@ -1622,10 +1594,6 @@ status:
 apiVersion: apiextensions.k8s.io/v1
 kind: CustomResourceDefinition
 metadata:
-  annotations:
-    "helm.sh/hook": pre-install,pre-upgrade
-    "helm.sh/hook-weight": "-5"
-    "helm.sh/hook-delete-policy": "before-hook-creation"
     controller-gen.kubebuilder.io/version: v0.4.1
   creationTimestamp: null
   labels:
@@ -1777,10 +1745,6 @@ status:
 apiVersion: apiextensions.k8s.io/v1
 kind: CustomResourceDefinition
 metadata:
-  annotations:
-    "helm.sh/hook": pre-install,pre-upgrade
-    "helm.sh/hook-weight": "-5"
-    "helm.sh/hook-delete-policy": "before-hook-creation"
     controller-gen.kubebuilder.io/version: v0.4.1
   creationTimestamp: null
   labels:
@@ -1954,10 +1918,6 @@ status:
 apiVersion: apiextensions.k8s.io/v1
 kind: CustomResourceDefinition
 metadata:
-  annotations:
-    "helm.sh/hook": pre-install,pre-upgrade
-    "helm.sh/hook-weight": "-5"
-    "helm.sh/hook-delete-policy": "before-hook-creation"
     controller-gen.kubebuilder.io/version: v0.4.1
   creationTimestamp: null
   labels:
@@ -2352,10 +2312,6 @@ status:
 apiVersion: apiextensions.k8s.io/v1
 kind: CustomResourceDefinition
 metadata:
-  annotations:
-    "helm.sh/hook": pre-install,pre-upgrade
-    "helm.sh/hook-weight": "-5"
-    "helm.sh/hook-delete-policy": "before-hook-creation"
     controller-gen.kubebuilder.io/version: v0.4.1
   creationTimestamp: null
   labels:
@@ -2497,10 +2453,6 @@ status:
 apiVersion: apiextensions.k8s.io/v1
 kind: CustomResourceDefinition
 metadata:
-  annotations:
-    "helm.sh/hook": pre-install,pre-upgrade
-    "helm.sh/hook-weight": "-5"
-    "helm.sh/hook-delete-policy": "before-hook-creation"
     controller-gen.kubebuilder.io/version: v0.4.1
   creationTimestamp: null
   labels:
