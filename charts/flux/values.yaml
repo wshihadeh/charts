@@ -9,6 +9,8 @@ kustomizeControllerReplicaCount: 1
 notificationControllerReplicaCount: 1
 sourceControllerReplicaCount: 1
 
+namespace: 'flux-system'
+
 fluxGitRepository: ''
 fluxGitRepositoryBranch: ''
 fluxGitRepositoryPath: ''
