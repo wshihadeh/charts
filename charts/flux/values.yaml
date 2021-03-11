@@ -1,0 +1,15 @@
+# Default values for helm-controller.
+# This is a YAML-formatted file.
+# Declare variables to be passed into your templates.
+
+helmControllerReplicaCount: 1
+imageAutomationControllerReplicaCount: 1
+imageReflectorControllerReplicaCount: 1
+kustomizeControllerReplicaCount: 1
+notificationControllerReplicaCount: 1
+sourceControllerReplicaCount: 1
+
+fluxGitRepository: ''
+fluxGitRepositoryBranch: ''
+fluxGitRepositoryPath: ''
+fluxGitRepositorySecret: ''
